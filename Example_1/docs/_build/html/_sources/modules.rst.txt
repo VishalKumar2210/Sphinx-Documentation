@@ -1,5 +1,5 @@
-test_1
-======
+Factual_Accuracy Method
+========================
 
 .. toctree::
    :maxdepth: 4
