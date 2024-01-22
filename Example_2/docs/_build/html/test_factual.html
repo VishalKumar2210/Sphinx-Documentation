@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>test_factual module &#8212; new_project 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/cloud.css?v=f9ae72be" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text:400,i,b,bi|Open+Sans:400,i,b,bi|Roboto+Mono:400,i,b,bi&amp;display=swap" type="text/css" />
+    
+    <script src="_static/documentation_options.js?v=2709fde1"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+
+    
+    
+     
+        <script src="_static/jquery.cookie.js"></script>
+    
+
+    
+     
+        <script src="_static/cloud.base.js"></script>
+    
+
+    
+     
+        <script src="_static/cloud.js"></script>
+    
+
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="factual_accuracy module" href="factual_accuracy.html" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head><body>
+    <div class="relbar-top">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="factual_accuracy.html" title="factual_accuracy module"
+             accesskey="P">previous</a> &nbsp; &nbsp;</li>
+    <li><a href="index.html">new_project 0.1 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="modules.html" accesskey="U">test_2</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">test_factual module</a></li> 
+      </ul>
+    </div>
+    </div>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="module-test_factual">
+<span id="test-factual-module"></span><h1>test_factual module<a class="headerlink" href="#module-test_factual" title="Link to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">test_factual.</span></span><span class="sig-name descname"><span class="pre">TestFactualAccuracy</span></span><a class="headerlink" href="#test_factual.TestFactualAccuracy" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Test class for the Factual Accuracy module.</p>
+<p>This class includes test cases for various methods related to factual accuracy.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.fake_data">
+<span class="sig-name descname"><span class="pre">fake_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.fake_data" title="Link to this definition">¶</a></dt>
+<dd><p>Generate fake data for testing when the file is not found.</p>
+<p>This function generates fake data for testing purposes, particularly when the file
+for data extraction is not found during testing.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_calculate_overlap_pct">
+<span class="sig-name descname"><span class="pre">test_calculate_overlap_pct</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_calculate_overlap_pct" title="Link to this definition">¶</a></dt>
+<dd><p>Test if cosine similarity is correctly calculated between two sets of entities.</p>
+<p>This function tests the calculate_overlap_pct method of the TestFactualAccuracy class,
+ensuring that the cosine similarity is accurately calculated between two sets of entities.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_check_factual_accuracy">
+<span class="sig-name descname"><span class="pre">test_check_factual_accuracy</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_check_factual_accuracy" title="Link to this definition">¶</a></dt>
+<dd><p>Test if the check_factual_accuracy method correctly identifies facts in output entities.</p>
+<p>This function tests the check_factual_accuracy method of the TestFactualAccuracy class,
+ensuring it correctly identifies factual accuracy between output and ground truth entities.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_extract_data_from_file">
+<span class="sig-name descname"><span class="pre">test_extract_data_from_file</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_extract_data_from_file" title="Link to this definition">¶</a></dt>
+<dd><p>Test if data is correctly extracted from a CSV file and factual accuracy is checked.</p>
+<p>This function tests the extract_data_from_file method of the TestFactualAccuracy class,
+checking if it correctly reads data from a CSV file and performs factual accuracy checks.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_extract_named_entities">
+<span class="sig-name descname"><span class="pre">test_extract_named_entities</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_extract_named_entities" title="Link to this definition">¶</a></dt>
+<dd><p>Test if named entities are correctly extracted from the text.</p>
+<p>This function tests the extract_named_entities method of the TestFactualAccuracy class,
+checking if it correctly identifies named entities in a given text.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_factual_accuracy">
+<span class="sig-name descname"><span class="pre">test_factual_accuracy</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">&lt;factual_accuracy.TestFactualAccuracy</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_factual_accuracy" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_factual_accuracy_with_fake_data">
+<span class="sig-name descname"><span class="pre">test_factual_accuracy_with_fake_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_factual_accuracy_with_fake_data" title="Link to this definition">¶</a></dt>
+<dd><p>Test factual accuracy using fake data when the file is not found.</p>
+<p>This function tests factual accuracy using fake data when the file for data extraction
+is not found. It handles the case where the file is not found by using the fake data.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_get_unique_entities">
+<span class="sig-name descname"><span class="pre">test_get_unique_entities</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_get_unique_entities" title="Link to this definition">¶</a></dt>
+<dd><p>Test the get_unique_entities method with various scenarios.</p>
+<p>This function tests the get_unique_entities method of the TestFactualAccuracy class,
+checking its behavior with different combinations of input entities and ground truth.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_get_unique_entities_in_ground_truth">
+<span class="sig-name descname"><span class="pre">test_get_unique_entities_in_ground_truth</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_get_unique_entities_in_ground_truth" title="Link to this definition">¶</a></dt>
+<dd><p>Test if unique entities in the ground_truth (not in output) are correctly identified.</p>
+<p>This function tests the get_unique_entities_in_ground_truth method of the TestFactualAccuracy class,
+verifying its ability to identify entities present in the ground truth but not in the output.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="test_factual.TestFactualAccuracy.test_get_unique_entities_in_output">
+<span class="sig-name descname"><span class="pre">test_get_unique_entities_in_output</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_factual.TestFactualAccuracy.test_get_unique_entities_in_output" title="Link to this definition">¶</a></dt>
+<dd><p>Test if unique entities in the output (not in ground truth) are correctly identified.</p>
+<p>This function tests the get_unique_entities_in_output method of the TestFactualAccuracy class,
+making sure it correctly identifies entities present in the output but not in the ground truth.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="sphinx-toc sphinxlocaltoc">
+    <h3><a href="index.html">Page contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">test_factual module</a><ul>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy</span></code></a><ul>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.fake_data"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.fake_data()</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_calculate_overlap_pct"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_calculate_overlap_pct()</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_check_factual_accuracy"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_check_factual_accuracy()</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_extract_data_from_file"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_extract_data_from_file()</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_extract_named_entities"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_extract_named_entities()</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_factual_accuracy"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_factual_accuracy</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_factual_accuracy_with_fake_data"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_factual_accuracy_with_fake_data()</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_get_unique_entities"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_get_unique_entities()</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_get_unique_entities_in_ground_truth"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_get_unique_entities_in_ground_truth()</span></code></a></li>
+<li><a class="reference internal" href="#test_factual.TestFactualAccuracy.test_get_unique_entities_in_output"><code class="docutils literal notranslate"><span class="pre">TestFactualAccuracy.test_get_unique_entities_in_output()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div class="sphinxprev">
+    <h4>Previous page</h4>
+    <p class="topless"><a href="factual_accuracy.html"
+                          title="Previous page">&larr; factual_accuracy module</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/test_factual.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+    
+    
+        <div class="sidebar-toggle-group no-js">
+            
+            <button class="sidebar-toggle" id="sidebar-hide" title="Hide the sidebar menu">
+                 «
+                <span class="show-for-small">hide menu</span>
+                
+            </button>
+            <button class="sidebar-toggle" id="sidebar-show" title="Show the sidebar menu">
+                
+                <span class="show-for-small">menu</span>
+                <span class="hide-for-small">sidebar</span>
+                 »
+            </button>
+        </div>
+    
+      <div class="clearer"></div>
+    </div>
+    <div class="relbar-bottom">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="factual_accuracy.html" title="factual_accuracy module"
+             >previous</a> &nbsp; &nbsp;</li>
+    <li><a href="index.html">new_project 0.1 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="modules.html" >test_2</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">test_factual module</a></li> 
+      </ul>
+    </div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2024, Vishal.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    </div>
+    <!-- cloud_sptheme 1.4 -->
+  </body>
+</html>

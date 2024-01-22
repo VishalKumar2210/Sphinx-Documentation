@@ -1,0 +1,7 @@
+conceptual\_similarity module
+=============================
+
+.. automodule:: conceptual_similarity
+   :members:
+   :undoc-members:
+   :show-inheritance:
